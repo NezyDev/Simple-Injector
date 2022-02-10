@@ -11,7 +11,7 @@ namespace UR_NAMESPACE_NAME
     using System.Runtime.InteropServices;
     using System.Text;
 
-    internal class BetterInjector
+    internal class Injector
     {
         [DllImport("kernel32.dll")]
         internal static extern IntPtr CreateRemoteThread(IntPtr hProcess, IntPtr lpThreadAttributes, uint dwStackSize, UIntPtr lpStartAddress, IntPtr lpParameter, uint dwCreationFlags, out IntPtr lpThreadId);
